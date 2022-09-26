@@ -1,6 +1,6 @@
 # RIB Web Scraper Wrapper
 
-[RIB Web Scraper](https://ko-fi.com/joaquigamer)のちょっとしたWrapper.
+[RIB Web Scraper](https://ko-fi.com/joaquigamer)のちょっとしたwrapper.
 
 ## Description
 
@@ -8,14 +8,18 @@ match urlをひとつずつコピペする代わりにevent top pageからmatch 
 
 eventごとにwebscrape.exeを実行し、data-pulledに出力されたファイルをevent.ymlの構成に従ってフォルダ分けします.
 
-### Usage
+## Usage
 
-RIB Web Scraperのwebscrape.exeと同じ階層に配置する.
+1. RIB Web Scraperのwebscrape.exeと同じ階層に配置する.
+2. event.ymlにevent top pageのurlを追加する.
+3. rib_web_scraper_wrapper.pyを実行する.
 
-event.ymlを編集する.
+## Dependencies
 
-rib_web_scraper_wrapper.pyを実行する.
+* Windows 10 or 11
+* Python > 3.2
+* Selenium 4.x
  
 ## Contact
 
-[@suk0buruusagi](https://twitter.com/suk0buruusagi)
+[@suk0buru_usagi](https://twitter.com/suk0buru_usagi)
