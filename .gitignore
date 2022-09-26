@@ -1,0 +1,11 @@
+# Environments
+venv/
+
+# RIB Web Scraper
+chromedriver_win32/
+data-pulled/
+webscrape.exe
+data.txt
+
+output/
+playground.ipynb
